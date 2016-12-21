@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "check-deps": "$(npm bin)/snyk test",
-    "develop": "$(npm bin)/gulp watch"
+    "dev": "$(npm bin)/gulp watch"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",
