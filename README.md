@@ -7,10 +7,10 @@ git clone git@github.com:FalconWiz/javascript-project-boilerplate.git
 
 cd javascript-project-boilerplate
 
-npm install
+npm install OR yarn
 ```
 
 ## Usage
 ```
-npm run develop
+npm run dev
 ```
