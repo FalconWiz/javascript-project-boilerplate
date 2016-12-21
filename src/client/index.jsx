@@ -6,21 +6,15 @@ import { render } from 'react-dom'
 import { Router, Route, browserHistory } from 'react-router'
 
 
-const App = React.createClass({
-  getInitialState () {
-    return {
-      data: {}
-    }
-  },
-
+class App extends React.Component {
   render () {
     return (
       <div className='App'>
-        This is a neat thing! Wow!
+        A good starting point!
       </div>
     )
   }
-})
+}
 
 render(
   <Router history={ browserHistory }>
